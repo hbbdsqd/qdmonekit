@@ -1,0 +1,6 @@
+framework module qdmonekit {
+  umbrella header "qdmonekit-umbrella.h"
+
+  export *
+  module * { export * }
+}

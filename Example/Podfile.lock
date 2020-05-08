@@ -1,0 +1,16 @@
+PODS:
+  - qdmonekit (0.1.0)
+
+DEPENDENCIES:
+  - qdmonekit (from `../`)
+
+EXTERNAL SOURCES:
+  qdmonekit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  qdmonekit: 0db7915020af2cc91fdb089b754c86a40d2597f1
+
+PODFILE CHECKSUM: ccba383a692005f3aa6734a55d0ccb79bf005edf
+
+COCOAPODS: 1.8.4
