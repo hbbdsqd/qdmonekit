@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'qdmonekit_Example' do
+  pod 'qdmonekit', :path => '../'
+
+  target 'qdmonekit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
