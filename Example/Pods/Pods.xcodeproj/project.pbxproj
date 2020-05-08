@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		102D027DE29F5A9351A0CFCA1F052B8A /* qdmonekit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1EFF074729BAF408D349A0B256D297 /* qdmonekit-dummy.m */; };
+		182C57261921B0DCC3356955119A30C7 /* UIView+FLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A676B1F16207E7A2672C84E14593FB5 /* UIView+FLExtension.m */; };
 		2300BE752D9EDD83A13F4591FF2112C7 /* Pods-qdmonekit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8D0652C2077140B95E2F9CCFF34CEE /* Pods-qdmonekit_Tests-dummy.m */; };
-		540145E53696ED9B218DA2330715E118 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5B3D5A2D30D9F8A6AB5AEE1DD33556C9 /* qdmonekit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E6BC5E6B98A8F804C0B30962DBF892 /* qdmonekit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BEF034DD833328C1CD9772345A019EF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 616A01B571B3FB8C514A91B7FB899A3B /* ReplaceMe.m */; };
+		4FE456589C7A8C7789EB94F5418C106F /* UIColor+FLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E35464AA509428FE866D9AEED43B178 /* UIColor+FLExtension.m */; };
+		5CE0637259C8D9AA52E7A5BE1F4348A2 /* qdmonekit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 253A684C96438796BC430A284D030DF5 /* qdmonekit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6803A01D31C9916B2F6737FBF323F3B3 /* UIColor+FLExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 340F7CCF626BB166BB4D99000967894F /* UIColor+FLExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		760E7657663D54F1EE0E20BAD5BA56A7 /* Pods-qdmonekit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD52998A2716613C7BFB52A6BE54DA64 /* Pods-qdmonekit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B2D510D10AA198DB59DF022554D08FA /* UIColor+FLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4DB5A08791E41F975C70241FEA0262 /* UIColor+FLExtension.m */; };
+		A1C580EC1A52CCC63AB0F4ABC836EEF2 /* qdmonekit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 823C9B549EF41C806A1AA1005D83DD5E /* qdmonekit-dummy.m */; };
 		A288548FEE445B5E0DB362D9EAD2EA70 /* Pods-qdmonekit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7575E255D847AE6262D822626478054 /* Pods-qdmonekit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3FF103787E59C0ECE00CF419FA1F0C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		CD1EA78DE3FEDB2C0E359F1AD83E87E1 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F598DBF1B39E12842EC3D6A78A29B0BB /* ReplaceMe.m */; };
+		B9850527F3CC394DB6D05DE9473DDE86 /* UIView+FLExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 61491E4B63D3B86F66F7468E8BE3AA06 /* UIView+FLExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3BB8E261607D5980BE5C02443B2BA26 /* Pods-qdmonekit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B574855B0DED58E5BC922A44CB40C98 /* Pods-qdmonekit_Example-dummy.m */; };
-		D972EAE71C7317C80E7D05DEFC27953C /* UIColor+FLExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F187600658ABDEEFEF5862FC477213 /* UIColor+FLExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D499B2DBD27426D442B0BA95CF8F4607 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		DC6019FE53C6BD529AE364A9EED5BD12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,38 +42,40 @@
 
 /* Begin PBXFileReference section */
 		060582EE718C339E7EB4C8FDEC105B26 /* Pods-qdmonekit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qdmonekit_Example-Info.plist"; sourceTree = "<group>"; };
+		11F99B9C2485DD2AC308AF8B5946D42D /* qdmonekit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = qdmonekit.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		15DE2584219DEB273649731AEF69DB29 /* Pods-qdmonekit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qdmonekit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1C3A63D77D5425FC09AC797ABB58F867 /* qdmonekit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = qdmonekit.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		1C4DB5A08791E41F975C70241FEA0262 /* UIColor+FLExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+FLExtension.m"; path = "qdmonekit/Classes/UIColor+FLExtension.m"; sourceTree = "<group>"; };
 		228EA5406DE55AD235B7697BF34B7664 /* Pods-qdmonekit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qdmonekit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		253A684C96438796BC430A284D030DF5 /* qdmonekit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "qdmonekit-umbrella.h"; sourceTree = "<group>"; };
 		27DFB0595AA88B4C13AD4370320DEC86 /* Pods_qdmonekit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qdmonekit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		340F7CCF626BB166BB4D99000967894F /* UIColor+FLExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+FLExtension.h"; path = "qdmonekit/Classes/UIColor+FLExtension.h"; sourceTree = "<group>"; };
 		3E8998D268D5DD1EFDABE0AE4131DA79 /* Pods-qdmonekit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-qdmonekit_Tests.modulemap"; sourceTree = "<group>"; };
-		52A1841DFF9A0FACD474281B60768AB3 /* qdmonekit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = qdmonekit.xcconfig; sourceTree = "<group>"; };
+		4E35464AA509428FE866D9AEED43B178 /* UIColor+FLExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+FLExtension.m"; path = "qdmonekit/Classes/UIColor+FLExtension.m"; sourceTree = "<group>"; };
+		61491E4B63D3B86F66F7468E8BE3AA06 /* UIView+FLExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLExtension.h"; path = "qdmonekit/Classes/UIView+FLExtension.h"; sourceTree = "<group>"; };
+		616A01B571B3FB8C514A91B7FB899A3B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = qdmonekit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		6B10B377DC05981F8817F0D97259F016 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6C8D0652C2077140B95E2F9CCFF34CEE /* Pods-qdmonekit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-qdmonekit_Tests-dummy.m"; sourceTree = "<group>"; };
+		6E006F1D404426A22B8EAE34B30BE226 /* qdmonekit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "qdmonekit-Info.plist"; sourceTree = "<group>"; };
 		6FCB26FA25C26BC373E4E979494478CC /* Pods-qdmonekit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-qdmonekit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		789A2BC0C3640365735868ACC3E849EF /* Pods-qdmonekit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-qdmonekit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7B574855B0DED58E5BC922A44CB40C98 /* Pods-qdmonekit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-qdmonekit_Example-dummy.m"; sourceTree = "<group>"; };
 		7B7E887255A7F5B0D861459209B5F9B6 /* Pods-qdmonekit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-qdmonekit_Example.modulemap"; sourceTree = "<group>"; };
-		82E5048E3C424D3BCCBFBDB436A60733 /* qdmonekit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = qdmonekit.modulemap; sourceTree = "<group>"; };
-		88F187600658ABDEEFEF5862FC477213 /* UIColor+FLExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+FLExtension.h"; path = "qdmonekit/Classes/UIColor+FLExtension.h"; sourceTree = "<group>"; };
+		7F40C1D00B266B47FCF37ACFFE51E93F /* qdmonekit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "qdmonekit-prefix.pch"; sourceTree = "<group>"; };
+		823C9B549EF41C806A1AA1005D83DD5E /* qdmonekit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "qdmonekit-dummy.m"; sourceTree = "<group>"; };
+		96BCF432C46556AB7B331C3A3464A831 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9796E6A2AD83D3DBCB4AFEED60015E5A /* qdmonekit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = qdmonekit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99DACBEA2F93724D2FDCB9F70062E784 /* Pods-qdmonekit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-qdmonekit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9A676B1F16207E7A2672C84E14593FB5 /* UIView+FLExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLExtension.m"; path = "qdmonekit/Classes/UIView+FLExtension.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5678CCBADA02FCB3C03A8637699CE64 /* qdmonekit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = qdmonekit.modulemap; sourceTree = "<group>"; };
 		AA21A3A31FF8D060639C2FA22EC570FA /* Pods-qdmonekit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qdmonekit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AC44C159487CE1CE5E4CDD63D2403BAA /* Pods-qdmonekit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qdmonekit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AD52998A2716613C7BFB52A6BE54DA64 /* Pods-qdmonekit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-qdmonekit_Example-umbrella.h"; sourceTree = "<group>"; };
-		AD864E2AA502C71B998DA9061A189D78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		AF33E3494E9E7D4FC60E9F0D7EC058DC /* qdmonekit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "qdmonekit-prefix.pch"; sourceTree = "<group>"; };
-		B4E3ADAF6368EEC6111E3D9945B1DF88 /* qdmonekit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "qdmonekit-Info.plist"; sourceTree = "<group>"; };
-		CC05CC2C04D290ED0D3F9C39BCB7857B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE94E7035BA5F86DBCAA848634555D2C /* Pods-qdmonekit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qdmonekit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CF1EFF074729BAF408D349A0B256D297 /* qdmonekit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "qdmonekit-dummy.m"; sourceTree = "<group>"; };
+		D2C8C9A91D8F49C454ACE253F35DF07E /* qdmonekit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = qdmonekit.xcconfig; sourceTree = "<group>"; };
 		D47933C07AB73CD3714D6A50A5FD1C67 /* Pods_qdmonekit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qdmonekit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D61FA1088FBDFDD1ADB0DA7138C0749A /* Pods-qdmonekit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qdmonekit_Tests-Info.plist"; sourceTree = "<group>"; };
-		E1E6BC5E6B98A8F804C0B30962DBF892 /* qdmonekit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "qdmonekit-umbrella.h"; sourceTree = "<group>"; };
 		F1A345B04724F4FE5A206AA86B5E2210 /* Pods-qdmonekit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qdmonekit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F598DBF1B39E12842EC3D6A78A29B0BB /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = qdmonekit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		F7575E255D847AE6262D822626478054 /* Pods-qdmonekit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-qdmonekit_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,14 +88,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AA1820446E880175B14816727F2E7AB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				540145E53696ED9B218DA2330715E118 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BAC406C038355E2F38A8491EA2DE8160 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -100,23 +96,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EF23208E06B5A109A9442BEA4B4184EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D499B2DBD27426D442B0BA95CF8F4607 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F444DFDBA2235298F813FAF2E50E58A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				82E5048E3C424D3BCCBFBDB436A60733 /* qdmonekit.modulemap */,
-				52A1841DFF9A0FACD474281B60768AB3 /* qdmonekit.xcconfig */,
-				CF1EFF074729BAF408D349A0B256D297 /* qdmonekit-dummy.m */,
-				B4E3ADAF6368EEC6111E3D9945B1DF88 /* qdmonekit-Info.plist */,
-				AF33E3494E9E7D4FC60E9F0D7EC058DC /* qdmonekit-prefix.pch */,
-				E1E6BC5E6B98A8F804C0B30962DBF892 /* qdmonekit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/qdmonekit";
-			sourceTree = "<group>";
-		};
 		244F985F6C615F60480D68D75582A114 /* Pods-qdmonekit_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +122,35 @@
 			);
 			name = "Pods-qdmonekit_Example";
 			path = "Target Support Files/Pods-qdmonekit_Example";
+			sourceTree = "<group>";
+		};
+		25FF5CB1498AA519E66E76ACD49952D3 /* qdmonekit */ = {
+			isa = PBXGroup;
+			children = (
+				616A01B571B3FB8C514A91B7FB899A3B /* ReplaceMe.m */,
+				340F7CCF626BB166BB4D99000967894F /* UIColor+FLExtension.h */,
+				4E35464AA509428FE866D9AEED43B178 /* UIColor+FLExtension.m */,
+				61491E4B63D3B86F66F7468E8BE3AA06 /* UIView+FLExtension.h */,
+				9A676B1F16207E7A2672C84E14593FB5 /* UIView+FLExtension.m */,
+				B04114664610BCAFC0889E030735E0F9 /* Pod */,
+				47C2477609B9FD43D2D07E27B675B01C /* Support Files */,
+			);
+			name = qdmonekit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		47C2477609B9FD43D2D07E27B675B01C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5678CCBADA02FCB3C03A8637699CE64 /* qdmonekit.modulemap */,
+				D2C8C9A91D8F49C454ACE253F35DF07E /* qdmonekit.xcconfig */,
+				823C9B549EF41C806A1AA1005D83DD5E /* qdmonekit-dummy.m */,
+				6E006F1D404426A22B8EAE34B30BE226 /* qdmonekit-Info.plist */,
+				7F40C1D00B266B47FCF37ACFFE51E93F /* qdmonekit-prefix.pch */,
+				253A684C96438796BC430A284D030DF5 /* qdmonekit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/qdmonekit";
 			sourceTree = "<group>";
 		};
 		47F7DF6FE8AB9650C165550E7CD722FD /* Products */ = {
@@ -169,25 +188,14 @@
 			path = "Target Support Files/Pods-qdmonekit_Tests";
 			sourceTree = "<group>";
 		};
-		901299FD1A789BF7EA468EA161DC992F /* qdmonekit */ = {
+		B04114664610BCAFC0889E030735E0F9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F598DBF1B39E12842EC3D6A78A29B0BB /* ReplaceMe.m */,
-				88F187600658ABDEEFEF5862FC477213 /* UIColor+FLExtension.h */,
-				1C4DB5A08791E41F975C70241FEA0262 /* UIColor+FLExtension.m */,
-				DCC5E8AEEB2CA27587717E4C3EFEFDA3 /* Pod */,
-				0F444DFDBA2235298F813FAF2E50E58A /* Support Files */,
+				96BCF432C46556AB7B331C3A3464A831 /* LICENSE */,
+				11F99B9C2485DD2AC308AF8B5946D42D /* qdmonekit.podspec */,
+				6B10B377DC05981F8817F0D97259F016 /* README.md */,
 			);
-			name = qdmonekit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		A42CCA356900B56F0CE99E16AB61E1E8 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				901299FD1A789BF7EA468EA161DC992F /* qdmonekit */,
-			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -202,7 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A42CCA356900B56F0CE99E16AB61E1E8 /* Development Pods */,
+				FAC56E684C89C9C2B4F393C5CAA5F824 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				47F7DF6FE8AB9650C165550E7CD722FD /* Products */,
 				79315059E52BD8B07BF65CA9AC6A1DBD /* Targets Support Files */,
@@ -217,14 +225,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DCC5E8AEEB2CA27587717E4C3EFEFDA3 /* Pod */ = {
+		FAC56E684C89C9C2B4F393C5CAA5F824 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AD864E2AA502C71B998DA9061A189D78 /* LICENSE */,
-				1C3A63D77D5425FC09AC797ABB58F867 /* qdmonekit.podspec */,
-				CC05CC2C04D290ED0D3F9C39BCB7857B /* README.md */,
+				25FF5CB1498AA519E66E76ACD49952D3 /* qdmonekit */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,12 +244,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2594235D97A6BCED461B65AD0F43F6BA /* Headers */ = {
+		4A5EB036262B5C8AD21983BCB1570570 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B3D5A2D30D9F8A6AB5AEE1DD33556C9 /* qdmonekit-umbrella.h in Headers */,
-				D972EAE71C7317C80E7D05DEFC27953C /* UIColor+FLExtension.h in Headers */,
+				5CE0637259C8D9AA52E7A5BE1F4348A2 /* qdmonekit-umbrella.h in Headers */,
+				6803A01D31C9916B2F6737FBF323F3B3 /* UIColor+FLExtension.h in Headers */,
+				B9850527F3CC394DB6D05DE9473DDE86 /* UIView+FLExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,12 +286,12 @@
 		};
 		7F0EB8D356BC673BCC7B0EFF962C64BC /* qdmonekit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19ADA2F320D3A944BEF4D4F1F8719322 /* Build configuration list for PBXNativeTarget "qdmonekit" */;
+			buildConfigurationList = CD042D3FC1204CECF10B6DC8E1C4ACC7 /* Build configuration list for PBXNativeTarget "qdmonekit" */;
 			buildPhases = (
-				2594235D97A6BCED461B65AD0F43F6BA /* Headers */,
-				42F4D7A5B198BBEB86212557EE9817A0 /* Sources */,
-				9AA1820446E880175B14816727F2E7AB /* Frameworks */,
-				EEB0AC7DEA57005CA403816052686206 /* Resources */,
+				4A5EB036262B5C8AD21983BCB1570570 /* Headers */,
+				3C3A160E7D10A3C199FA10118D3ECF2D /* Sources */,
+				EF23208E06B5A109A9442BEA4B4184EB /* Frameworks */,
+				3DA215819DDA356BDD9FF6627003AEFF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -344,14 +351,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A22885C959EB280D0393C59B04B0D491 /* Resources */ = {
+		3DA215819DDA356BDD9FF6627003AEFF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EEB0AC7DEA57005CA403816052686206 /* Resources */ = {
+		A22885C959EB280D0393C59B04B0D491 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -376,13 +383,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42F4D7A5B198BBEB86212557EE9817A0 /* Sources */ = {
+		3C3A160E7D10A3C199FA10118D3ECF2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				102D027DE29F5A9351A0CFCA1F052B8A /* qdmonekit-dummy.m in Sources */,
-				CD1EA78DE3FEDB2C0E359F1AD83E87E1 /* ReplaceMe.m in Sources */,
-				7B2D510D10AA198DB59DF022554D08FA /* UIColor+FLExtension.m in Sources */,
+				A1C580EC1A52CCC63AB0F4ABC836EEF2 /* qdmonekit-dummy.m in Sources */,
+				3BEF034DD833328C1CD9772345A019EF /* ReplaceMe.m in Sources */,
+				4FE456589C7A8C7789EB94F5418C106F /* UIColor+FLExtension.m in Sources */,
+				182C57261921B0DCC3356955119A30C7 /* UIView+FLExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,37 +609,6 @@
 			};
 			name = Debug;
 		};
-		9813C26288D7F7706A33C79B02B4A7EC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52A1841DFF9A0FACD474281B60768AB3 /* qdmonekit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/qdmonekit/qdmonekit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/qdmonekit/qdmonekit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/qdmonekit/qdmonekit.modulemap";
-				PRODUCT_MODULE_NAME = qdmonekit;
-				PRODUCT_NAME = qdmonekit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		BBF6E63AB8F9FB91BAF6F11C05D9F9E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AC44C159487CE1CE5E4CDD63D2403BAA /* Pods-qdmonekit_Example.release.xcconfig */;
@@ -666,9 +643,9 @@
 			};
 			name = Release;
 		};
-		D43AA6FA7A4861DE90CDC3BCA44260C3 /* Release */ = {
+		D1A82F16ED87F0B3CAF74B2597E79A1D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52A1841DFF9A0FACD474281B60768AB3 /* qdmonekit.xcconfig */;
+			baseConfigurationReference = D2C8C9A91D8F49C454ACE253F35DF07E /* qdmonekit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -697,6 +674,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		D6F88DAE66D5DE70B8C47D4C98A94476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2C8C9A91D8F49C454ACE253F35DF07E /* qdmonekit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/qdmonekit/qdmonekit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/qdmonekit/qdmonekit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/qdmonekit/qdmonekit.modulemap";
+				PRODUCT_MODULE_NAME = qdmonekit;
+				PRODUCT_NAME = qdmonekit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		DBDBEC7C297AC1F948FA8D28E7CAAB75 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -735,15 +743,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		19ADA2F320D3A944BEF4D4F1F8719322 /* Build configuration list for PBXNativeTarget "qdmonekit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9813C26288D7F7706A33C79B02B4A7EC /* Debug */,
-				D43AA6FA7A4861DE90CDC3BCA44260C3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -767,6 +766,15 @@
 			buildConfigurations = (
 				3EFDA3CC00190E8E7F696EF8EF6F92A5 /* Debug */,
 				BBF6E63AB8F9FB91BAF6F11C05D9F9E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD042D3FC1204CECF10B6DC8E1C4ACC7 /* Build configuration list for PBXNativeTarget "qdmonekit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F88DAE66D5DE70B8C47D4C98A94476 /* Debug */,
+				D1A82F16ED87F0B3CAF74B2597E79A1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

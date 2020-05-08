@@ -11,6 +11,7 @@
 #endif
 
 #import "UIColor+FLExtension.h"
+#import "UIView+FLExtension.h"
 
 FOUNDATION_EXPORT double qdmonekitVersionNumber;
 FOUNDATION_EXPORT const unsigned char qdmonekitVersionString[];
