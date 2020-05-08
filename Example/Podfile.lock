@@ -1,5 +1,5 @@
 PODS:
-  - qdmonekit (0.1.0)
+  - qdmonekit (2)
 
 DEPENDENCIES:
   - qdmonekit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  qdmonekit: 0db7915020af2cc91fdb089b754c86a40d2597f1
+  qdmonekit: 8eb44bba99922dda548167e78a1b68dcda234d09
 
 PODFILE CHECKSUM: ccba383a692005f3aa6734a55d0ccb79bf005edf
 
