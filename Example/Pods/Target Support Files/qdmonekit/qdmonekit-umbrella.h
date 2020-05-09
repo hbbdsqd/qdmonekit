@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "QDSubViewController.h"
 #import "UIColor+FLExtension.h"
 
 FOUNDATION_EXPORT double qdmonekitVersionNumber;

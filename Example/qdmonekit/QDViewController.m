@@ -7,6 +7,7 @@
 //
 
 #import "QDViewController.h"
+#import "QDSubViewController.h"
 
 @interface QDViewController ()
 
@@ -17,7 +18,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor orangeColor];
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    QDSubViewController * vc = [[QDSubViewController alloc]init];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning
