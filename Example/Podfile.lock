@@ -1,16 +1,23 @@
 PODS:
-  - qdmonekit (2)
+  - MJRefresh (3.4.1)
+  - qdmonekit (5):
+    - MJRefresh
 
 DEPENDENCIES:
   - qdmonekit (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MJRefresh
 
 EXTERNAL SOURCES:
   qdmonekit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  qdmonekit: 8eb44bba99922dda548167e78a1b68dcda234d09
+  MJRefresh: 3153c59a363159092c08b2177ec3a7d09f90bfaf
+  qdmonekit: bda5037be992d7e2f4850fdef839b9c9e06b4da1
 
-PODFILE CHECKSUM: ccba383a692005f3aa6734a55d0ccb79bf005edf
+PODFILE CHECKSUM: 76f96d30b9e81c3b6b75f737eb70c5ce5285815f
 
 COCOAPODS: 1.8.4
